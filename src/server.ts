@@ -19,4 +19,4 @@ app.use(errorHandler);
 
 dotenv.config();
 
-app.listen(3333);
+app.listen( process.env.PORT || 3333);
